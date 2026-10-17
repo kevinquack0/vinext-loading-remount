@@ -1,0 +1,23 @@
+{
+  "name": "vinext-loading-remount",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev --port 7401",
+    "build": "vite build",
+    "start": "vinext start --port 7402",
+    "measure": "node measure.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "6.1.2",
+    "@vitejs/plugin-rsc": "0.5.38",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-server-dom-webpack": "19.3.1",
+    "vinext": "1.2.1",
+    "vite": "8.3.4"
+  },
+  "devDependencies": {
+    "playwright-core": "1.55.0"
+  }
+}
